@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+}
+.container{
+    width: 1140;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post{
+    background-color: #ff1238;
+    width: 75%;
+    float: left;
+    min-height: 80vh;
+}
+
+/* sudebar here */
+.sidebar{
+    background-color: burlywood;
+    width: 25%;
+    float: left;
+    min-height: 80vh;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profil h2, .komentar h2{
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+}
